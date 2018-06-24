@@ -1,7 +1,7 @@
 ### your site title here
 
 title: Elliptic-Py Docs
-baseurl: https://justvdnsh.github.io/elliptic-py # name of the repository
+baseurl: /elliptic-py # name of the repository
 email: justdvnsh2208@gmail.com
 
 
