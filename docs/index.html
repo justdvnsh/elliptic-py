@@ -4,13 +4,12 @@ layout: default
 <h1 class="headline">{{site.title}}</h1>
 <div class="article-list">
 {% for post in site.posts %}
-    <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+    <h1 class="post-headline">{{page.title}}</h1>
+    <p class="meta"><small>{{page.date | date: '%B %d, %Y'}}</small></p>
     <p>{{post.content}}</p>
 {% endfor %}
 </div>
 <!-- Comments only for posts -->
-{% if page.path contains '_posts' %}
-    {% if site.disqus-shortname %}
+{% if site.disqus-shortname %}
         {% include disqus.html %}
-    {% endif %}
 {% endif %}
