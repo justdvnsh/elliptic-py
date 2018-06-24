@@ -18,6 +18,7 @@ analytics: "UA-120388254-1"
 disqus-shortname: "divyansh"
 
 
+
 #optimization
 #compress.html
 compress_html:
@@ -35,42 +36,7 @@ sass:
  style: compressed
 
 exclude:
-<<<<<<< HEAD
 - README.md
 
 
 gems: [jekyll-seo-tag, jekyll-paginate]
-=======
-  - Gemfile
-  - Gemfile.lock
-  - .idea/
-  - .gitignore
-  - README.md
-timezone: Europe/Berlin
-defaults:
-- scope:
-    path: _posts
-    type: posts
-  values:
-    layout: post
-    sectionid: blog
-
-- scope:
-    path: _docs
-    type: docs
-  values:
-    layout: docs
-    sectionid: docs
-    seo:
-      type: "WebPage"
-
-collections:
-  docs:
-    permalink: /:collection/:path/
-    output: true
-  posts:
-    permalink: /blog/:year/:month/:day/:title/
-    output: true
-
-theme: jekyll-theme-minimal
->>>>>>> 4bac28d6efc455bca815614c446c0de2a57d043f
