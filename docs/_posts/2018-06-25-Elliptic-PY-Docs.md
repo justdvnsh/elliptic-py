@@ -93,7 +93,7 @@ There are also multiple ways to represent a signature. The default
 `sk.sign()` and `vk.verify()` methods present it as a short string, for
 simplicity and minimal overhead. To use a different scheme, use the
 `sk.sign(sigencode=)` and `vk.verify(sigdecode=)` arguments. There are helper
-funcions in the "ellipticpy.util" module that can be useful here.
+functions in the "ellipticpy.util" module that can be useful here.
 
 It is also possible to create a SigningKey from a "seed", which is
 deterministic. This can be used in protocols where you want to derive
